@@ -1,0 +1,14 @@
+PyQt6-Qt6
+PyQt6-sip
+PyQt6
+httpx
+feedparser
+yfinance
+pandas
+scikit-learn
+alpha_vantage
+sqlmodel
+psycopg2-binary
+investpy
+APScheduler
+matplotlib
