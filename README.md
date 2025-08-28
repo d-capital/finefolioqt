@@ -11,7 +11,3 @@ Clone the repository, setup virtual environment, install dependencies from requi
 Results will be saved into `dist` folder.
 Copy `finefolio.db` into `dist` folder.
 Run `FineFolio.exe`.
-
-### Downloading prebuild version
-Download `finefolio.zip`, unpack it, it already has `finefolio.db`.
-Run `FineFolio.exe`.
