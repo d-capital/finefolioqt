@@ -2,3 +2,9 @@ env
 .vscode
 dist
 build
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+error_log.txt
