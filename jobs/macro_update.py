@@ -36,7 +36,10 @@ def update():
     logging.debug("last date: ")
     logging.debug(last_date)
     #TODO: alog is not catching last ECB rate change, need to understand why
-    data: pd.DataFrame = investpy.economic_calendar(countries = countries, from_date = last_date, to_date = str_today)
+    try:
+        data: pd.DataFrame = investpy.economic_calendar(countries = countries, from_date = last_date, to_date = str_today)
+    except ValueError:
+        data: pd.DataFrame = investpy.economic_calendar(countries=countries)
     #save data
     #TODO: it might be a problem to find correct events so I need to modify them in the df itself before filtering
     for i in range(len(data)):
