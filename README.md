@@ -11,3 +11,6 @@ Clone the repository, setup virtual environment, install dependencies from requi
 Results will be saved into `dist` folder.
 Copy `finefolio.db` into `dist` folder.
 Run `FineFolio.exe`.
+
+### Download ready-to-use app
+You can download it here [Itch.io Link](https://finefolio.itch.io/finefolioqt)
