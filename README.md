@@ -2,7 +2,7 @@
 This app is build to update economic information on 7 major economies to make regression analysis (Random Forest Regression)
 to see if current exchange rate is overvalued or underestimated. Its based on interest rate, inflation, unemployment, gdp and trade balance.
 All factors are presented in annual format. 
-Every 15 minutes app goes into investing.com and downloads latest events for thoses factors for 7 major economies.
+You have a button there to refresh the data - app will goe to investing.com and downloads latest events for thoses factors for 7 major economies.
 App allows you to download series of events as csv, see side by side comparison of economies based on currency pairs.
 
 ### Building on your own
